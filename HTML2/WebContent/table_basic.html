@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table (표)</title>
+</head>
+<body>
+	<table border="1"><!-- 테이블의 테두리 굵기 지정 속성 border -->
+	<thead><!-- 논리적인 head 구분 태그, 웹 접근성을 위한 것 -->
+		<tr>
+			<th></th>
+			<th>월</th>
+			<th>화</th>
+			<th>수</th>
+			<th>목</th>
+			<th>금</th>
+		</tr>
+		</thead>
+		<tbody><!-- 논리적인 body 구분 태그, 웹 접근성 -->
+			<tr>
+				<td>1교시</td>
+				<td>영어</td>
+				<td>국어</td>
+				<td>과학</td>
+				<td>미술</td>
+				<td>기술</td>
+			</tr>
+			<tr>
+				<td>2교시</td>
+				<td>도덕</td>
+				<td>체육</td>
+				<td>영어</td>
+				<td>수학</td>
+				<td>사회</td>
+			</tr>
+		</tbody>
+		<!-- 논리적 foot 구분, 웹 접근성 -->
+		<tfoot>
+		<!-- 셀 병합하기 -->
+		<tr><td colspan="6"> 비고: </td></tr>
+		</tfoot>
+	</table>
+</body>
+</html>
